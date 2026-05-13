@@ -1,0 +1,54 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "Nujuma-adf"
+		},
+		"AzureDatabricks2_accessToken": {
+			"value": ""
+		},
+		"AzureSqlDatabase1_password": {
+			"value": ""
+		},
+		"CtsTargetAdls_accountKey": {
+			"value": ""
+		},
+		"GoogleBigQuery1_keyFileContent": {
+			"value": ""
+		},
+		"MySql_password": {
+			"value": ""
+		},
+		"NaukriSourceBlob_connectionString": {
+			"value": ""
+		},
+		"AzureDatabricks2_properties_typeProperties_existingClusterId": {
+			"value": "0420-232401-mcojoqsi"
+		},
+		"AzureSqlDatabase1_properties_typeProperties_server": {
+			"value": "data-sqlserver-db.database.windows.net"
+		},
+		"AzureSqlDatabase1_properties_typeProperties_database": {
+			"value": "mydb"
+		},
+		"AzureSqlDatabase1_properties_typeProperties_userName": {
+			"value": "nujuma"
+		},
+		"CtsTargetAdls_properties_typeProperties_url": {
+			"value": "https://adlsdatastorage2.dfs.core.windows.net/"
+		},
+		"MySql_properties_typeProperties_server": {
+			"value": "35.223.80.16"
+		},
+		"MySql_properties_typeProperties_database": {
+			"value": "telco_schema_nujuma"
+		},
+		"MySql_properties_typeProperties_username": {
+			"value": "inceptez"
+		},
+		"RestService_properties_typeProperties_url": {
+			"value": "https://v6.exchangerate-api.com/v6/a3155d8af3ba01eef3bc598c/latest/INR"
+		}
+	}
+}
