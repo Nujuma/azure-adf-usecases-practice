@@ -1,0 +1,18 @@
+{
+	"name": "Trigger_pzg",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Stopped",
+		"pipelines": [],
+		"type": "ScheduleTrigger",
+		"typeProperties": {
+			"recurrence": {
+				"frequency": "Hour",
+				"interval": 24,
+				"startTime": "2026-04-23T04:45:00Z",
+				"endTime": "2026-04-30T04:45:00Z",
+				"timeZone": "UTC"
+			}
+		}
+	}
+}

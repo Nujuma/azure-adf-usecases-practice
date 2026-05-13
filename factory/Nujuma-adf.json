@@ -1,0 +1,15 @@
+{
+	"name": "Nujuma-adf",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Enabled",
+			"editable": true
+		}
+	},
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "e7c58799-d6d0-4211-bec9-8d5199b8e4b2",
+		"tenantId": "31434d73-6e9f-41e2-8f8f-a3dbf818063f"
+	}
+}

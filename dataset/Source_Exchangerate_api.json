@@ -1,0 +1,16 @@
+{
+	"name": "Source_Exchangerate_api",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "RestService",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "RestResource",
+		"typeProperties": {
+			"relativeUrl": "https://v6.exchangerate-api.com/v6/a3155d8af3ba01eef3bc598c/latest/INR"
+		},
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

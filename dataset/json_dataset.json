@@ -1,0 +1,21 @@
+{
+	"name": "json_dataset",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "CtsTargetAdls",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "currencyrate.json",
+				"folderPath": "api_target",
+				"fileSystem": "adlscontainer"
+			}
+		},
+		"schema": {}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

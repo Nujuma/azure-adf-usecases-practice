@@ -1,0 +1,16 @@
+{
+	"name": "Source_Telco_dim_tower",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "MySql",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "MySqlTable",
+		"schema": [],
+		"typeProperties": {
+			"tableName": "telco_schema_nujuma"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

@@ -1,0 +1,25 @@
+{
+	"name": "Source_Naukri",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "NaukriSourceBlob",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "customer_header_1",
+				"folderPath": "sourcedata",
+				"container": "jobapplication"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

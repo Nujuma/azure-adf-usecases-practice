@@ -1,0 +1,13 @@
+{
+	"name": "AzureDatabricks1",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureDatabricks",
+		"typeProperties": {
+			"domain": "https://adb-7405607012509478.18.azuredatabricks.net",
+			"authentication": "MSI",
+			"workspaceResourceId": "/subscriptions/41ae69a9-8b19-49fe-acad-54c9f0ddee07/resourceGroups/wd36-rg1/providers/Microsoft.Databricks/workspaces/telecom-dbx-workspace"
+		}
+	}
+}
